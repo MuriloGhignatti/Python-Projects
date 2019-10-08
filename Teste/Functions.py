@@ -22,4 +22,17 @@ def multiVet(MatrizA,MatrizB):
             Resultante.append(soma)
     return soma
 
-print(multiVet([[1,2],[2,1]],[[2,2],[3,3]]))
+def RetaX(lista):
+    X = []
+    for i in range(lista.__len__()):
+        for j in range(lista[0].__len__()):
+            if j == 0:
+                X.append(lista[i][0])
+    return X
+def RetaY(lista):
+    Y = []
+    for i in range(lista.__len__()):
+        for j in range(lista[0].__len__()):
+            if j == 1:
+                Y.append(lista[i][1])
+    return Y
