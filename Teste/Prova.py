@@ -67,4 +67,6 @@ def LapizReta(ponto:tuple):
         Lapiz((Reta_Ponto[i][0], Reta_Ponto[i][1]))
     plt.show()
 
+#Lapiz((0,0))
+#plt.show()
 #LapizReta((100,200))
